@@ -96,7 +96,7 @@ Check out the following links to get a better idea of what to expect:
 
 ### Design the Twitter timeline and search (or Facebook feed and search)
 
-[View exercise and solution](https://github.com/donnemartin/system-design-primer/solutions/system_design/twitter/README.md)
+[View exercise and solution](https://github.com/donnemartin/system-design-primer/tree/master/solutions/system_design/twitter/README.md)
 
 ![Imgur](images/jrUBAF7.png)
 

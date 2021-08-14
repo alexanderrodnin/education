@@ -53,7 +53,7 @@
 проверить сессию. Если токен валиден, то
 сервис доверяет тем данным, которые он
 получил из токена.
-![Imgurl](images/token-based-1.png)
+![Imgurl](images/01-authorization-and-authentication/token-based-1.png)
 
 ## Основные особенности token based cессий
 - Может упростить backend разработку, если критично отсутствие единого

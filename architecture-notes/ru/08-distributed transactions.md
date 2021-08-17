@@ -43,3 +43,21 @@ _То что написанно выше - оч трудно в понимани
 - Объединение сервисов
 - Двухфазные коммиты (2PC)
 - Паттерн Saga 
+
+### Оптимистичная согласованность
+Просто используем локальные транзакции и надеемся на лучшее
+- Если всё плохо здесь и сейчас
+    - Утверждаем, что в конечном счёте всё будет хорошо
+- Если в конечном счёте всё плохо
+    - Подобное неизбежно случается, но вероятность этого мала и
+потери незначительны
+
+### Объединение сервисов
+Просто проводим границы сервисов по транзакциям
+
+### Двухфазные коммиты (2PC)
+[google it](https://www.google.com/search?q=%D0%B4%D0%B2%D1%83%D1%85%D1%84%D0%B0%D0%B7%D0%BD%D1%8B%D0%B9+%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82&newwindow=1&sxsrf=ALeKk00UQ3hivTIb3tJNiYhgiwDi7xNSww%3A1629188012417&ei=rG8bYYXuGIOMxc8P8daIgAs&oq=%D0%B4%D0%B2%D1%83%D1%85%D1%84%D0%B0%D0%B7%D0%BD%D1%8B%D0%B9+%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgAEEMyBQgAEIAEMgYIABAWEB4yBggAEBYQHjoHCAAQRxCwA0oECEEYAFCnWFinWGDGXmgCcAJ4AIABbYgB0wGSAQMwLjKYAQCgAQHIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwiF9IGmzrfyAhUDRvEDHXErArAQ4dUDCA4&uact=5)
+### Паттерн Saga 
+[github microservices saga pattern](microservices-saga-pattern)
+
+

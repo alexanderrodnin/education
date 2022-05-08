@@ -7,9 +7,6 @@
 ## Simplest solidity code example
 ```js
 // SPDX-License-Identifier: MIT
-
-pragma solidity ^0.8.0;
-
 contract MyShop {
     address public owner; // декларация переменной типа address
     mapping(address => uint) public payments; // декларация key-value map 
